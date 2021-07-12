@@ -1,6 +1,8 @@
 import math 
 print("This is a two number calculator")
 print("Mathematical opperations are performed on the numbers in the order they are input") 
+
+print("ex. to get the n-th root of the first number enter negitive n to the second number")
 in1= input("Enter First Number (or 'pi', 'e', 'tau'):")
 if in1=="pi":
     num1=float(math.pi)
