@@ -23,6 +23,15 @@ def funCalculator():
             
             if opp == "=": 
                 break
+            elif opp == "squared":
+                res = mathFun.square(res)
+                break
+            elif opp == "inverse":
+                res = mathFun.inverse(res)
+                break
+            elif opp == "squrt":
+                res = mathFun.squrt(res)
+                break
 
             strInput = input()
             num = 0
@@ -49,9 +58,8 @@ def funCalculator():
                 res = mathFun.remainder(res, num)
             elif opp == "^":
                 res = mathFun.exponent(res, num)
-            
-        if opp == "=":
-            print(res)
+
+        print(res)
        
         
 if __name__ == '__main__':
